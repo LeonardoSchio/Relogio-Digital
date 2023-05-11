@@ -3,6 +3,7 @@ package projeto.aluguel.ferramenta.Model;
 
 public class Ferramenta {
 
+    private int id;
     private String nome;
     private String marca;
     private Double preco;
@@ -30,6 +31,14 @@ public class Ferramenta {
 
     public void setPreco(Double preco) {
         this.preco = preco;
+    }
+    
+    public int getId(){
+        return id;
+    }
+    
+    public void setId(int id){
+        this.id = id;
     }
 }
 

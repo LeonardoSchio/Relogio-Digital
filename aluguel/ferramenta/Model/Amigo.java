@@ -6,8 +6,9 @@ package projeto.aluguel.ferramenta.Model;
 
 public class Amigo {
 
+    private int id;
     private String nome;
-    private String telefone;
+    private int telefone;
 
     public String getNome() {
         return nome;
@@ -17,11 +18,19 @@ public class Amigo {
         this.nome = nome;
     }
 
-    public String getTelefone() {
+    public int getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(String telefone) {
+    public void setTelefone(int telefone) {
         this.telefone = telefone;
+    }
+    
+    public int getId(){
+        return id;
+    }
+    
+    public void setId(int id){
+        this.id = id;
     }
 }
